@@ -1,12 +1,10 @@
-import { View, Text, Button } from 'react-native';
+import { View, Text, Button, Pressable } from 'react-native';
 import React from 'react';
+import FlatListS from './FlatListS';
 
-const PLP = ( { navigation } ) => {
+const PLP = () => {
   return (
-    <View>
-      <Text>PLP</Text>
-      <Button title="Go to PDP" onPress={() => navigation.navigate('PDP', {pname : 'Hi', pprice : 200, pdesc : 'This is a Product.'})} />
-    </View>
+    <FlatListS />
   );
 };
 
