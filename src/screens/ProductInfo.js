@@ -8,12 +8,20 @@ import p7 from '../p7.png';
 import p8 from '../p8.png';
 
 export const Products = [
-    { pid: 1, pimage : p1, name: 'Product 1', price: 100, description: 'This is a Product.' },
-    { pid: 2, pimage : p2, name: 'Product 2', price: 200, description: 'This is a Product.' },
-    { pid: 3, pimage : p3, name: 'Product 3', price: 300, description: 'This is a Product.' },
-    { pid: 4, pimage : p4, name: 'Product 4', price: 400, description: 'This is a Product.' },
-    { pid: 5, pimage : p5, name: 'Product 5', price: 500, description: 'This is a Product.' },
-    { pid: 6, pimage : p6, name: 'Product 6', price: 600, description: 'This is a Product.' },
-    { pid: 7, pimage : p7, name: 'Product 7', price: 700, description: 'This is a Product.' },
-    { pid: 8, pimage : p8, name: 'Product 8', price: 800, description: 'This is a Product.' },
+    { pid: 1, pimage : p1, name: 'Arsenal Jersey', price: 10000,
+        description: 'This is a football Jersey by Arsenal. This is a very special jersey and our application is providing it to you for a very low and discounted price.' },
+    { pid: 2, pimage : p2, name: 'AIA Jersey', price: 15000,
+        description: 'This is a football Jersey by AIA. This is a very special jersey and our application is providing it to you for a very low and discounted price.' },
+    { pid: 3, pimage : p3, name: 'Emirates Jersey', price: 49999,
+        description: 'This is a football Jersey by Emirates. This is a very special limited edition and most trending jersey and our application is providing it to you for a very low and discounted price.' },
+    { pid: 4, pimage : p4, name: 'Nike Colorful Cleats', price: 20000,
+        description: 'Cleats by Nike which is in demand. It is available for a discounted price by us.' },
+    { pid: 5, pimage : p5, name: 'Nike BW Cleats', price: 25000,
+        description: 'Special Edition cleats by Nike.' },
+    { pid: 6, pimage : p6, name: 'Adidas Cleats', price: 15000,
+        description: 'Normal Adidas Cleats.' },
+    { pid: 7, pimage : p7, name: 'ELYSIA Football', price: 7000,
+        description: 'Football by ELYSIA used in FIFA.' },
+    { pid: 8, pimage : p8, name: 'DERBYSTAR Football', price: 7500,
+        description: 'DERBYSTAR Football signed by Unknown.' },
 ];

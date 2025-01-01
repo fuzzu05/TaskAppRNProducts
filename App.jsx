@@ -7,15 +7,17 @@ import PDP from './src/screens/PDP';
 
 const Stack = createNativeStackNavigator();
 
-
 const App = () => {
+
   return (
     <NavigationContainer>
+
       <Stack.Navigator>
         <Stack.Screen name="Splash" component={ Splash } options={{ headerShown: false }} />
         <Stack.Screen name="PLP" component={ PLP } options={{ headerShown: false }} />
-        <Stack.Screen name="PDP" component={ PDP } />
+        <Stack.Screen name="Product Details" component={ PDP } />
       </Stack.Navigator>
+
     </NavigationContainer>
   );
 };

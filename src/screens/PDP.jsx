@@ -6,14 +6,26 @@ const PDP = ( props ) => {
   const {pimage, pname , pprice, pdesc} = props.route.params;
 
   return (
-    <View>
-      <Image source={{pimage}} style={ { alignContent: 'center', width: 150, height: 150 } } />
-      <Text style = { { justifyContent : 'center', alignContent : 'center' } }>Name of product : {pname}</Text>
+    <View style= { { justifyContent: 'center', alignItems: 'center' } }>
+
+      <Image source={pimage}
+      style={ { justifyContent: 'center', alignContent: 'center', width: 400, height: 400 } } />
+
+      <Text style = { { justifyContent : 'center', alignContent : 'center', fontSize: 22 } }>
+        {pname}
+      </Text>
+      <Text style = { { justifyContent : 'center', alignContent : 'center', fontSize: 18 } }>
+        Price: ₹{pprice}
+      </Text>
+
       <Text></Text>
-      <Text style = { { justifyContent : 'center', alignContent : 'center' } }>Price: {pprice}</Text>
-      <Text></Text>
-      <Text style = { { justifyContent : 'center', alignContent : 'center' } }>About the product:</Text>
-      <Text style = { { justifyContent : 'center', alignContent : 'center' } }>{pdesc}</Text>
+
+      <Text style = { { justifyContent : 'center', alignContent : 'center', fontSize: 16 } }>
+        Product Description:
+      </Text>
+      <Text style = { { justifyContent : 'center', alignContent : 'center', fontSize: 14 } }>
+        {pdesc}
+      </Text>
       
     </View>
   );

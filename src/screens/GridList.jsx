@@ -3,8 +3,8 @@ import React from 'react';
 import { Products } from './ProductInfo';
 import ProductItems from '../Components/ProductItems';
 
-const FlatListS = () => {
-
+const GridList = () => {
+    
   const productDisplay = ( { item } ) =>
   <ProductItems pimage = { item.pimage } name = { item.name } price = { item.price } descrip={ item.description }/>;
 
@@ -13,9 +13,10 @@ const FlatListS = () => {
       data = { Products }
       renderItem = { productDisplay }
       keyExtractor={ (item) => item.pid }
+      numColumns={2}
       contentContainerStyle = { { paddingHorizontal : 3 } }
     />
   );
 };
 
-export default FlatListS;
+export default GridList;
