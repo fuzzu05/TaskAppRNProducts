@@ -14,7 +14,7 @@ const App = () => {
       <Stack.Navigator>
         <Stack.Screen name="Splash" component={ Splash } options={{ headerShown: false }} />
         <Stack.Screen name="PLP" component={ PLP } options={{ headerShown: false }} />
-        <Stack.Screen name="PDP" component={ PDP } options={{ headerShown: false }} />
+        <Stack.Screen name="PDP" component={ PDP } />
       </Stack.Navigator>
     </NavigationContainer>
   );
